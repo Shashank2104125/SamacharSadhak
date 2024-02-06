@@ -2,10 +2,11 @@ import React from 'react'
 import { Card, CardActions, CardActionArea, CardContent, CardMedia, Button, Typography } from '@mui/material'
 // import useStyles from './styles.js'
 
-const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage }, i }) => {
+const NewsCard = ({ article:{ description, publishedAt, source, title, url, urlToImage }, i }) => {
+    //: 
     //  const classes=useStyles();
     return (
-        <Card>
+        <Card href={url} target="_blank">
             <CardActionArea>
                 <CardMedia sx={{ height: 250 }} image={urlToImage || "https://themayanagari.com/wp-content/uploads/2021/05/Breaking-News-Transparent.jpg.webp"} />
                 <div>

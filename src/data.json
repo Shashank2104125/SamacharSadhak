@@ -1,0 +1,28 @@
+[
+  {
+    "source": {
+      "id": "abc-news",
+      "name": "ABC News"
+    },
+    "author": "John Doe",
+    "title": "Breaking News: Important Event",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "url": "https://example.com/article1",
+    "urlToImage": "https://example.com/image1.jpg",
+    "publishedAt": "2024-01-27T12:00:00Z",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "source": {
+      "id": "bbc-news",
+      "name": "BBC News"
+    },
+    "author": "Jane Smith",
+    "title": "Tech Innovation: New Gadgets Unveiled",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "url": "https://example.com/article2",
+    "urlToImage": "https://example.com/image2.jpg",
+    "publishedAt": "2024-01-27T14:30:00Z",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+  }
+]
